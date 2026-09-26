@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1790347647398,
+      "tag": "0000_young_penance",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1790356334105,
+      "tag": "0001_studio_updates",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1790357970136,
+      "tag": "0002_status_width",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1790400000000,
+      "tag": "0003_manual_bkash",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1790399827843,
+      "tag": "0004_tense_doomsday",
+      "breakpoints": true
+    }
+  ]
+}
