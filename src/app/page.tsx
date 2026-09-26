@@ -156,7 +156,11 @@ export default async function HomePage() {
 
           <div className="relative hidden h-[540px] lg:block">
             <div className="glass absolute right-0 top-0 w-72 animate-float overflow-hidden rounded-3xl p-2 shadow-2xl">
-              <img src={pexels(34921744, 700)} alt="Portrait from a private gallery" className="h-80 w-full rounded-2xl object-cover" />
+               <img
+  src="https://i.ibb.co.com/ZphJhL8t/Whats-App-Image-2026-09-26-at-8-42-18-PM.jpg"
+  alt="Portrait"
+  className="h-80 w-full rounded-2xl object-cover"
+/>
               <div className="flex items-center justify-between px-3 py-3">
                 <div>
                   <p className="text-[11px] uppercase tracking-[0.2em] text-white/45">Private gallery</p>
@@ -297,9 +301,9 @@ export default async function HomePage() {
       <section id="experience" className="mx-auto max-w-7xl px-6 py-28">
         <div className="grid gap-16 lg:grid-cols-2 lg:items-center">
           <div className="relative">
-            <img src={MEDIA.photographer} alt="Photographer with camera" className="aspect-[4/5] w-full rounded-[2rem] object-cover" />
+            <img src="https://i.ibb.co.com/ZphJhL8t/Whats-App-Image-2026-09-26-at-8-42-18-PM.jpg" alt="Photographer with camera" className="aspect-[4/5] w-full rounded-[2rem] object-cover" />
             <div className="glass-strong absolute -bottom-6 right-4 rounded-3xl p-6 sm:-right-6">
-              <p className="gold-text font-display text-4xl">12 yrs</p>
+              <p className="gold-text font-display text-4xl">4 yrs</p>
               <p className="text-[11px] uppercase tracking-[0.25em] text-white/50">Crafting heirlooms</p>
             </div>
           </div>
