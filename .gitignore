@@ -1,0 +1,10 @@
+node_modules
+.next
+.env
+.env.example
+.env.development.local
+.env.production.local
+.pglite
+storage
+.pgdata
+tsconfig.tsbuildinfo
