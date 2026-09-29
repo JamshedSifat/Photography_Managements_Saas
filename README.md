@@ -20,7 +20,7 @@
 
 <br />
 
-<img src="./screenshots/hero.png" width="100%" alt="Photography Management SaaS Dashboard"/>
+<img src="./assets/Hero.png" width="100%" alt="Photography Management SaaS Dashboard"/>
 
 </div>
 
@@ -383,7 +383,7 @@ Photographer profiles can display aggregated rating information.
 
 ## 👑 Admin
 
-<img src="./screenshots/admin-dashboard.png" width="100%" alt="Admin Dashboard"/>
+<img src="./assets/admin-dashboard.png" width="100%" alt="Admin Dashboard"/>
 
 Admins can manage:
 
@@ -405,7 +405,7 @@ Admins can manage:
 
 ## 📸 Photographer
 
-<img src="./screenshots/photographer-dashboard.png" width="100%" alt="Photographer Dashboard"/>
+<img src="./assets/photographer-dashboard.png" width="100%" alt="Photographer Dashboard"/>
 
 Photographers can manage:
 
@@ -423,7 +423,7 @@ Photographers can manage:
 
 ## 👤 Client
 
-<img src="./screenshots/client-dashboard.png" width="100%" alt="Client Dashboard"/>
+<img src="./assets/client-dashboard.png" width="100%" alt="Client Dashboard"/>
 
 Clients can:
 
