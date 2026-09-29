@@ -1,24 +1,29 @@
-📸 Photography Studio Management SaaS
-A modern, full-stack Photography Studio Management SaaS designed to manage the complete studio workflow — from client management and photographer scheduling to bookings, payments, contracts, private galleries, notifications, and real-time communication.
-Built as a production-oriented portfolio project with a focus on real-world studio operations, role-based workflows, secure client delivery, and a polished SaaS experience.
+# 📸 Photography Studio Management SaaS
 
-✨ Core Features
-🔐 Authentication & Role-Based Access
+A modern, full-stack **Photography Studio Management SaaS** designed to manage the complete studio workflow — from client management and photographer scheduling to bookings, payments, contracts, private galleries, notifications, and real-time communication.
+
+> Built as a production-oriented portfolio project with a focus on real-world studio operations, role-based workflows, secure client delivery, and a polished SaaS experience.
+
+## ✨ Core Features
+
+### 🔐 Authentication & Role-Based Access
 - Secure authentication with access/refresh tokens
 - Three roles:
-  - Admin
-  - Photographer
-  - Client
+  - **Admin**
+  - **Photographer**
+  - **Client**
 - Protected role-based dashboards and actions
 - Profile management with photographer information
-👥 Client Management
+
+### 👥 Client Management
 - Client profiles and contact information
 - Booking history
 - Payment history
 - Total spending and outstanding balance
 - Notes and tags
 - Client search and management
-📦 Photography Package Management
+
+### 📦 Photography Package Management
 - Create and manage photography packages
 - Package categories
 - Pricing
@@ -27,7 +32,8 @@ Built as a production-oriented portfolio project with a focus on real-world stud
 - Features and deliverables
 - Cover images
 - Popular/active package controls
-📅 Booking & Scheduling
+
+### 📅 Booking & Scheduling
 - Online booking management
 - Unique booking references
 - Date and time scheduling
@@ -39,7 +45,8 @@ Built as a production-oriented portfolio project with a focus on real-world stud
 - Studio working days and hours
 - Minimum booking notice
 - Maximum advance-booking window
-👨‍🎨 Photographer Portfolio
+
+### 👨‍🎨 Photographer Portfolio
 Each photographer can have a public professional profile containing:
 - Profile photo
 - Headline and bio
@@ -51,8 +58,10 @@ Each photographer can have a public professional profile containing:
 - Ratings and reviews
 - Availability
 - Next available date
+
 Clients can explore photographer profiles and previous work before choosing a photographer.
-🗓️ Photographer Availability
+
+### 🗓️ Photographer Availability
 - Weekly working hours
 - Available/blocked dates
 - Holidays
@@ -60,7 +69,8 @@ Clients can explore photographer profiles and previous work before choosing a ph
 - Leave requests
 - Admin leave approval/rejection
 - Availability overrides
-🔔 Real-Time Notification Center
+
+### 🔔 Real-Time Notification Center
 Persistent in-app notifications for:
 - New bookings
 - Booking approval/rejection
@@ -75,12 +85,15 @@ Persistent in-app notifications for:
 - New chat messages
 - Reviews
 - Leave status updates
+
 Includes unread counts, read/unread state, notification history, and links to related records.
-💬 Real-Time In-App Chat
+
+### 💬 Real-Time In-App Chat
 Booking-based private chat between:
 - Client
 - Assigned Photographer
 - Admin
+
 Features include:
 - Real-time message delivery
 - Persistent message history
@@ -92,15 +105,19 @@ Features include:
 - Message timestamps
 - Unread counts
 - Chat notifications
-Real-time updates are implemented with Server-Sent Events (SSE) and persisted in PostgreSQL so message/notification history can be restored after reconnecting.
-💳 Manual Payment Management
+
+Real-time updates are implemented with **Server-Sent Events (SSE)** and persisted in PostgreSQL so message/notification history can be restored after reconnecting.
+
+### 💳 Manual Payment Management
 Supports manual mobile-money payment verification without requiring a payment gateway API.
+
 Payment workflow:
 1. Client submits payment information.
 2. Transaction details are stored as pending verification.
 3. Admin reviews the payment.
 4. Admin verifies or rejects it.
 5. Payment status and booking balances are updated.
+
 Supports:
 - Advance payment
 - Balance payment
@@ -119,8 +136,10 @@ Supports:
 - Payment history
 - PDF receipts
 - Duplicate transaction ID protection
-🖼️ Private Client Galleries
+
+### 🖼️ Private Client Galleries
 Secure galleries connected to bookings and clients.
+
 Features:
 - Cloudinary-based photo storage
 - Multiple photo uploads
@@ -136,14 +155,16 @@ Features:
 - Gallery comments
 - Gallery activity history
 - Gallery extension requests
-🔐 Gallery Access & Security
+
+### 🔐 Gallery Access & Security
 - OTP-based gallery access
 - Expiring gallery access
 - Download controls
 - Watermark support
 - Download activity logging
 - Client-specific gallery permissions
-📝 Digital Contracts & E-Signature
+
+### 📝 Digital Contracts & E-Signature
 Complete contract workflow:
 - Contract generation per booking
 - Secure invitation token
@@ -156,14 +177,17 @@ Complete contract workflow:
 - IP/user-agent tracking
 - PDF contract generation
 - Contract email workflow
-⭐ Reviews & Ratings
+
+### ⭐ Reviews & Ratings
 After a completed booking:
 - Client can submit a rating
 - Client can write a review
 - Photographer rating aggregates are maintained
 - Reviews appear on photographer profiles
-📊 Role-Based Dashboards
-Admin Dashboard
+
+### 📊 Role-Based Dashboards
+
+#### Admin Dashboard
 - Today's shoots
 - Upcoming bookings
 - Monthly revenue
@@ -175,21 +199,24 @@ Admin Dashboard
 - Team workload
 - Recent payments
 - Upcoming and recent bookings
-Photographer Dashboard
+
+#### Photographer Dashboard
 - Today's shoots
 - Weekly schedule
 - Monthly completed sessions
 - Sessions waiting for delivery
 - Upcoming bookings
 - Assigned work
-Client Dashboard
+
+#### Client Dashboard
 - Upcoming bookings
 - Next session
 - Outstanding balance
 - Galleries
 - Payment history
 - Session history
-📧 Email & Communication
+
+### 📧 Email & Communication
 Email workflows support:
 - Welcome emails
 - Booking confirmations
@@ -204,45 +231,57 @@ Email workflows support:
 - Gallery OTP
 - Leave status updates
 - Gallery extension notifications
+
 Email activity is logged for tracking delivery status and errors.
-🧾 Invoices & PDF Documents
+
+### 🧾 Invoices & PDF Documents
 - Unique invoice numbers
 - Booking invoices
 - Payment receipts
 - Contract PDFs
 - Studio invoice notes
 - PDF document generation
-🛠️ Tech Stack
-Frontend
+
+## 🛠️ Tech Stack
+
+### Frontend
 - Next.js 16
 - React 19
 - Tailwind CSS
 - SWR
 - Lucide React
 - Sonner
-Backend / Application
+
+### Backend / Application
 - Next.js Route Handlers
 - Server-side application logic
 - REST-style API endpoints
 - Server-Sent Events (SSE)
-Database
+
+### Database
 - PostgreSQL
 - Drizzle ORM
 - Drizzle Kit
-Authentication & Security
+
+### Authentication & Security
 - JWT-style access/refresh token authentication
-- jose
-- bcryptjs
+- `jose`
+- `bcryptjs`
 - Zod validation
 - Role-based authorization
-Media & Documents
+
+### Media & Documents
 - Cloudinary
 - PDFKit
 - Image/file attachment support
-Email
+
+### Email
 - Nodemailer
-🗂️ Main Data Domains
+
+## 🗂️ Main Data Domains
+
 The database is structured around the major studio workflows:
+
 - Users
 - Clients
 - Packages
@@ -267,7 +306,10 @@ The database is structured around the major studio workflows:
 - Contracts
 - Email Logs
 - Studio Settings
-🔄 Booking Lifecycle
+
+## 🔄 Booking Lifecycle
+
+```text
 Pending
    ↓
 Approved
@@ -281,8 +323,13 @@ Editing
 Gallery Ready
    ↓
 Completed
+```
+
 A booking can also be cancelled according to the allowed workflow.
-💰 Payment Lifecycle
+
+## 💰 Payment Lifecycle
+
+```text
 Payment Submitted
        ↓
 Pending Verification
@@ -292,7 +339,11 @@ Admin Review
 Rejected     Paid
                 ↓
         Receipt Generated
-🖼️ Gallery Workflow
+```
+
+## 🖼️ Gallery Workflow
+
+```text
 Booking
    ↓
 Gallery Created
@@ -306,11 +357,18 @@ Client Access
 Preview / Favorite / Comment
    ↓
 Secure Download
-🔔 Real-Time Architecture
-The application uses Server-Sent Events (SSE) for live server-to-client updates.
+```
+
+## 🔔 Real-Time Architecture
+
+The application uses **Server-Sent Events (SSE)** for live server-to-client updates.
+
 Important events such as chat messages and notifications are persisted first and then pushed to connected clients. This allows the application to resynchronize through the API after a reconnect instead of losing history.
-🎯 Project Goals
+
+## 🎯 Project Goals
+
 This project focuses on solving real photography-studio operational problems:
+
 - Reduce manual booking management
 - Prevent scheduling conflicts
 - Centralize client information
@@ -321,22 +379,49 @@ This project focuses on solving real photography-studio operational problems:
 - Improve client-photographer communication
 - Provide real-time operational updates
 - Give studio administrators a centralized management dashboard
-🚀 Getting Started
-1. Clone the repository
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/JamshedSifat/Photography_Managements_Saas.git
 cd Photography_Managements_Saas
-2. Install dependencies
+```
+
+### 2. Install dependencies
+
+```bash
 npm install
-3. Configure environment variables
-Create a .env.local file and configure the required database, authentication, Cloudinary, and email settings used by the application.
-4. Prepare the database
+```
+
+### 3. Configure environment variables
+
+Create a `.env.local` file and configure the required database, authentication, Cloudinary, and email settings used by the application.
+
+### 4. Prepare the database
+
 Use the project's Drizzle configuration and migration/push workflow to initialize the PostgreSQL database.
+
+```bash
 npx drizzle-kit push
-5. Start development server
+```
+
+### 5. Start development server
+
+```bash
 npm run dev
+```
+
 Open:
+
+```text
 http://localhost:3000
-📁 Project Structure
+```
+
+## 📁 Project Structure
+
+```text
 Photography_Managements_Saas/
 ├── src/
 │   ├── app/              # Next.js application routes/pages
@@ -349,14 +434,28 @@ Photography_Managements_Saas/
 ├── drizzle.config.ts
 ├── next.config.ts
 └── tsconfig.json
-🌐 Live Demo
-Live Application:
+```
+
+## 🌐 Live Demo
+
+**Live Application:**  
 https://photography-managements-saas.vercel.app/
-💻 Repository
-GitHub:
+
+## 💻 Repository
+
+**GitHub:**  
 https://github.com/JamshedSifat/Photography_Managements_Saas
-📌 Project Status
+
+## 📌 Project Status
+
 This project is actively developed and continuously improved with additional studio-management workflows and production-focused refinements.
-👨‍💻 Author
-Jamshed Sifat
+
+## 👨‍💻 Author
+
+**Jamshed Sifat**
+
 Full Stack Developer | React • Next.js • PostgreSQL | Building Production-Ready Projects
+
+---
+
+⭐ If you find this project useful or interesting, consider giving the repository a star.
