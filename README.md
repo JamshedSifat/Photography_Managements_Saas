@@ -74,7 +74,7 @@ Completed Booking
 
 ## 🖥️ Dashboard
 
-<img src="./screenshots/admin-dashboard.png" width="100%" alt="Admin Dashboard"/>
+<img src="./assets/admin-dashboard.png" width="100%" alt="Admin Dashboard"/>
 
 The admin dashboard provides a centralized overview of studio operations, bookings, payments, photographers, clients, notifications, and activity.
 
@@ -86,7 +86,7 @@ The admin dashboard provides a centralized overview of studio operations, bookin
 <tr>
 <td width="50%">
 
-<img src="./screenshots/booking.png" width="100%" alt="Booking Management"/>
+<img src="./assets/booking.png" width="100%" alt="Booking Management"/>
 
 <p align="center"><b>Booking Management</b></p>
 
@@ -150,7 +150,7 @@ The system supports:
 
 # 💳 Payment Management
 
-<img src="./screenshots/payment.png" width="100%" alt="Payment Management"/>
+<img src="./assets/payment.png" width="100%" alt="Payment Management"/>
 
 The platform supports manual payment workflows including **bKash** payment submission and admin verification.
 
@@ -197,7 +197,7 @@ Client
 
 # 🖼️ Private Client Gallery
 
-<img src="./screenshots/gallery.png" width="100%" alt="Private Client Gallery"/>
+<img src="./assets/gallery.png" width="100%" alt="Private Client Gallery"/>
 
 The gallery system provides a secure environment for clients to access their photography deliverables.
 
