@@ -93,7 +93,7 @@ The admin dashboard provides a centralized overview of studio operations, bookin
 </td>
 <td width="50%">
 
-<img src="./screenshots/calendar.png" width="100%" alt="Calendar"/>
+<img src="./assets/calendar.png" width="100%" alt="Calendar"/>
 
 <p align="center"><b>Studio Calendar</b></p>
 
@@ -119,7 +119,7 @@ The admin dashboard provides a centralized overview of studio operations, bookin
 
 # 👨‍🎨 Photographer Management
 
-<img src="./screenshots/photographer.png" width="100%" alt="Photographer Profile"/>
+<!-- <img src="./screenshots/photographer.png" width="100%" alt="Photographer Profile"/> -->
 
 Photographers have dedicated profiles containing:
 
@@ -227,7 +227,7 @@ The gallery system provides a secure environment for clients to access their pho
 <tr>
 <td width="60%">
 
-<img src="./screenshots/chat.png" width="100%" alt="Real Time Chat"/>
+<img src="./assets/chat.png" width="100%" alt="Real Time Chat"/>
 
 </td>
 
@@ -283,7 +283,7 @@ Messages and notifications are persisted first and then published to connected c
 
 # 🔔 Notification Center
 
-<img src="./screenshots/notifications.png" width="100%" alt="Notification Center"/>
+<!-- <img src="./screenshots/notifications.png" width="100%" alt="Notification Center"/> -->
 
 The notification system keeps users informed about important studio events.
 
@@ -318,7 +318,7 @@ Users can:
 
 # 📝 Digital Contract & E-Signature
 
-<img src="./screenshots/contract.png" width="100%" alt="Digital Contract"/>
+<!-- <img src="./screenshots/contract.png" width="100%" alt="Digital Contract"/> -->
 
 The platform includes a digital contract workflow for photography bookings.
 
@@ -362,7 +362,7 @@ Email Invitation
 
 # ⭐ Reviews & Ratings
 
-<img src="./screenshots/reviews.png" width="100%" alt="Reviews and Ratings"/>
+<!-- <img src="./screenshots/reviews.png" width="100%" alt="Reviews and Ratings"/> -->
 
 Clients can submit reviews after completing a booking.
 
@@ -650,15 +650,6 @@ npx drizzle-kit push
 
 ### 5. Start development server
 
-```bash
-npm run dev
-```
-
-Open:
-
-```text
-http://localhost:3000
-```
 
 ---
 
@@ -741,24 +732,24 @@ This project combines these workflows into a unified SaaS platform.
 <table>
 <tr>
 <td width="50%">
-<img src="./screenshots/packages.png" width="100%" />
+<img src="./assets/packages.png" width="100%" />
 <p align="center"><b>Photography Packages</b></p>
 </td>
 
 <td width="50%">
-<img src="./screenshots/availability.png" width="100%" />
+<img src="./assets/availability.png" width="100%" />
 <p align="center"><b>Photographer Availability</b></p>
 </td>
 </tr>
 
 <tr>
 <td width="50%">
-<img src="./screenshots/invoice.png" width="100%" />
+<img src="./assets/Invoice.png" width="100%" />
 <p align="center"><b>Invoice</b></p>
 </td>
 
 <td width="50%">
-<img src="./screenshots/profile.png" width="100%" />
+<img src="./assets/profile.png" width="100%" />
 <p align="center"><b>Photographer Profile</b></p>
 </td>
 </tr>
